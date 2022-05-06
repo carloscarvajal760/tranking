@@ -1,0 +1,94 @@
+.Carta1top {
+
+    display: flex;
+
+    align-items: center;
+
+    background: var(--Blue);
+
+    padding-left: 20px;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+    border-radius: 10px;
+
+}
+
+.Carta1top img {
+
+    width: 15%;
+
+    border-radius: 50%;
+
+    border: 2px solid white;
+
+}
+
+
+
+.texto {
+
+    margin-left: 10px;
+
+}
+
+
+
+.texto p {
+
+    margin: 5px 0;
+
+    color: var(--Pale-Blue);
+
+}
+
+
+
+.texto p:first-child {
+
+    font-size: 10px;
+
+}
+
+
+
+.texto p:nth-child(2) {
+
+    font-size: 17px;
+
+}
+@media (min-width: 1024px) {
+
+    .Carta1top {
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        height: 265px;
+
+    }
+
+    .Carta1top img {
+
+        height: 60px;
+
+        width: 60px;
+
+    }
+
+    .texto {
+
+        margin-top: 30px;
+
+    }
+
+    .texto p:nth-child(2) {
+
+        font-size: 30px;
+
+    }
+
+}
