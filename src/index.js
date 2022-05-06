@@ -1,19 +1,14 @@
 import React from 'react';
-import {lista}from "./Cartaapi/index"
 import ReactDOM from 'react-dom/client';
-
 import './index.css';
+import App from './componentes/App.js';
 
-import App from './componentes/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(
-
-     <React.StrictMode >
-
-    <App list = {lista} />
-
-     </React.StrictMode>
-
+root.render( <
+    React.StrictMode >
+    <
+    App / >
+    <
+    /React.StrictMode>
 );
